@@ -1,5 +1,9 @@
+@import url('https://fonts.google.com/css?family=Share+Tech+Mono|Roboto');
+
+
 
 body {
-        color: #fff;
-        background-color: #aaa;
+        font-family: 'Roboto', sans-serif;
+        color: #999;
+        background-color: #eee;
 }

@@ -4,7 +4,9 @@
   "description": "An attempt to build a portfolio with various web frameworks",
   "main": "index.html",
   "scripts": {
-    "build": "jade jadestore/index.jade && mv jadestore/index.jade .",
+    "build_index": "jade jadestore/index.jade && mv jadestore/index.html $(pwd)",
+    "build_contact":"jade jadestore/contact.jade && mv jadestore/contact.html $(pwd)",
+    "build":"npm run build_index && npm run build_contact",
     "push": " git add $(pwd) && git commit -a && git push"
   },
   "repository": {
