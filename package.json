@@ -4,7 +4,8 @@
   "description": "An attempt to build a portfolio with various web frameworks",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "jade jadestore/index.jade && mv jadestore/index.jade .",
+    "push": " git add $(pwd) && git commit -a && git push"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/jreastman/jreastman.github.io/issues"
   },
-  "homepage": "https://github.com/jreastman/jreastman.github.io#readme",
+  "homepage": "https://jreastman.github.io",
   "devDependencies": {
     "haml": "^0.4.3",
     "jquery": "^3.3.1",
