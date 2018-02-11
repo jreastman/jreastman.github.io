@@ -1,27 +1,19 @@
 {
   "name": "jreastman.github.io",
   "version": "1.0.0",
-  "description": "An attempt to build a portfolio with various web frameworks",
+  "description": "",
   "main": "index.html",
   "scripts": {
-    "build_index": "jade jadestore/index.jade && mv jadestore/index.html $(pwd)",
-    "build_contact":"jade jadestore/contact.jade && mv jadestore/contact.html $(pwd)",
-    "build":"npm run build_index && npm run build_contact",
-    "push": " git add $(pwd) && git commit -a && git push"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/jreastman/jreastman.github.io.git"
   },
-  "author": "JRE",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jreastman/jreastman.github.io/issues"
   },
-  "homepage": "https://jreastman.github.io",
-  "devDependencies": {
-    "haml": "^0.4.3",
-    "jquery": "^3.3.1",
-    "mustache": "^2.3.0"
-  }
+  "homepage": "https://github.com/jreastman/jreastman.github.io#readme"
 }
