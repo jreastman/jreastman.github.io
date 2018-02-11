@@ -1,0 +1,24 @@
+{
+  "name": "jreastman.github.io",
+  "version": "1.0.0",
+  "description": "An attempt to build a portfolio with various web frameworks",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jreastman/jreastman.github.io.git"
+  },
+  "author": "JRE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jreastman/jreastman.github.io/issues"
+  },
+  "homepage": "https://github.com/jreastman/jreastman.github.io#readme",
+  "devDependencies": {
+    "haml": "^0.4.3",
+    "jquery": "^3.3.1",
+    "mustache": "^2.3.0"
+  }
+}
