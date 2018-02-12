@@ -15,7 +15,7 @@ html, body {
   color: var(--mf);
 }
 
-.block {
+#block {
         max-width:100%;
         margin: auto;
         background-color: var(--mf);

@@ -8,15 +8,15 @@ html
     meta(charset="utf-8")
     title //JRE
     link(href="global.css", rel="stylesheet")
-    script(src="http://code.jquery.com/jquery-3.3.1.min.js")
-    script(src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js")
+    script(src="jquery-3.3.1.js")
+    script(src="jquery-ui.js")
     script(src="ind.js")
   body
     .page
       <!-- header -->
       .header
         h1 //JRE
-        .block
+        #block
       
       <!-- Content block -->
       div
@@ -25,7 +25,7 @@ html
       <!-- Footer -->
       
       .foot
-       .block
-       a(href="#") |About
-       a(href="#") |Contact
-       a(href="index.html") |JRE
+        #block
+        a(href="#") |About
+        a(href="#") |Contact
+        a(href="index.html") |JRE
