@@ -8,11 +8,18 @@
 
 
 html, body {
-        font-family: 'Fira Mono', monospace;
-        margin: 0px;
-        padding: 0px;
-        background-color: var(--mb);
-        color: var(--mf);
+  font-family: 'Fira Mono', monospace;
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--mb);
+  color: var(--mf);
+}
+
+.block {
+        max-width:100%;
+        margin: auto;
+        background-color: var(--mf);
+        height: 10px;
 }
 
 .page {

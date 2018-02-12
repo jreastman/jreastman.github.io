@@ -3,22 +3,27 @@
 
 doctype html
 html
-  // head, eventually seperated into head.jade
+  <!-- head -->
   head
     meta(charset="utf-8")
     title //JRE
     link(href="global.css", rel="stylesheet")
+    script(src="ind.js")
   body
     .page
-      
-      .head
+      <!-- header -->
+      .header
         h1 //JRE
-        p head
+        .block
       
+      <!-- Content block -->
       div
         h3 main content list
       
+      <!-- Footer -->
+      
       .foot
+       .block
        a(href="#") |About
        a(href="#") |Contact
        a(href="index.html") |JRE
