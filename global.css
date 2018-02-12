@@ -3,9 +3,18 @@
 :root {
         --mb:#1b1b1d;
         --mf:#959595;
+        --mh:#4a5245;
 }
 
+a:link, a, a:visited, a:active {
+        text-decoration:none;
+        color: var(--mf)
+  }
 
+a:hover {
+        text-decoration:none;
+        color: var(--mh);
+  }
 
 html, body {
   font-family: 'Fira Mono', monospace;
@@ -19,8 +28,10 @@ html, body {
         max-width:100%;
         margin: auto;
         background-color: var(--mf);
-        height: 10px;
+        height: 5px;
 }
+
+
 
 .page {
   max-width:100%;
@@ -29,9 +40,17 @@ html, body {
   padding: 50px 50px;
 }
 
-.foot, .head {
+.foot, .header {
    width: 100%;
    overflow: hidden;
    letter-spacing:0px;
    display:inline-block;
+}
+
+
+
+.link {
+        padding: 3px;
+        margin: 3px;
+
 }
