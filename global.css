@@ -34,6 +34,7 @@ html, body {
 
 
 .page {
+  width: 90%;
   max-width:100%;
   margin: auto;
   min-height:100%;
@@ -52,5 +53,33 @@ html, body {
 .link {
         padding: 3px;
         margin: 3px;
+}
+
+@media only screen and (max-width:500px) {
+        .page {
+                width:100%;
+                padding:0px;
+                margin:0px;
+        }
+
+        .header > h2,
+        .header > pre,
+        .content,
+        .link{
+                margin: 20px;
+        }
 
 }
+
+@media only screen and (min-width:1100px) {
+        .page {
+                width:50%;
+                margin: auto;
+        }
+
+
+
+}
+
+
+
