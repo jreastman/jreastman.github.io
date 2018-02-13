@@ -1,0 +1,5 @@
+#!/bin/bash
+
+jade jades/index.jade && mv jades/index.html . ;
+jade jades/Contact.jade && mv jades/Contact.html . ;
+jade jades/About.jade && mv jades/About.html . ;

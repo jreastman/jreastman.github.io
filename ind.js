@@ -1,6 +1,6 @@
 $(()=> {
 // Minimal eye candy
-  $(".page").hide().fadeIn(4000)
+  $(".page").hide().fadeIn(800)
 
 // Changes header's h2 to it's hex representation
   $("#change").hover(()=>{
