@@ -43,6 +43,11 @@ html, body {
   min-height:100%;
   padding: 50px 50px;
 }
+img {
+        width:100%;
+        margin: auto;
+        
+}
 
 .foot, .header {
    width: 100%;
