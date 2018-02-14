@@ -36,6 +36,10 @@ html, body {
         margin-bottom: 10px;
 }
 
+ul {
+        list-style:none;
+}
+
 .page {
   width: 90%;
   max-width:100%;
