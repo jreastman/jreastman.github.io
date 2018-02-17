@@ -16,6 +16,11 @@ a:hover {
         color: var(--mh);
   }
 
+img {
+        margin-top: 5px;
+        margin-bottom: 5px;
+}
+
 html, body {
   font-family: 'Fira Mono', monospace;
   margin: 0px;
