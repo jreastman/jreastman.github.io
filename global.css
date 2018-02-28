@@ -23,8 +23,6 @@ img {
 
 html, body {
   font-family: 'Fira Mono', monospace;
-  margin: 0px;
-  padding: 0px;
   background-color: var(--mb);
   color: var(--mf);
 }
@@ -37,8 +35,8 @@ html, body {
 }
 
 .content {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
 }
 
 ul {
@@ -50,7 +48,7 @@ ul {
   max-width:100%;
   margin: auto;
   min-height:100%;
-  padding: 50px 50px;
+  /*padding: 50px;*/
 }
 img {
         width:100%;
